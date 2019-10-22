@@ -14,3 +14,4 @@ while(price<bankacc){
 function dolla(price){
     return "$"*(price)
     console.log(dolla(price).toFixed(2))
+}
