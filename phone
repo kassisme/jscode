@@ -10,4 +10,7 @@ while(price<bankacc){
     price += withtax(PHONEP);
     if(price<TRESHOLD){
         price += withtax(ACCESSORIES)} }
-console.log((price).toFixed(2))
+
+function dolla(price){
+    return "$"*(price)
+    console.log(dolla(price).toFixed(2))
